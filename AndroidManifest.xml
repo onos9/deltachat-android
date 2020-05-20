@@ -281,14 +281,6 @@
         </intent-filter>
     </service>
 
-    <receiver android:name=".notifications.MarkReadReceiver"
-              android:enabled="true"
-              android:exported="false">
-        <intent-filter>
-            <action android:name="org.thoughtcrime.securesms.notifications.CLEAR"/>
-        </intent-filter>
-    </receiver>
-
     <receiver android:name=".notifications.RemoteReplyReceiver"
               android:enabled="true"
               android:exported="false">
